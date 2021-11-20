@@ -18,12 +18,14 @@ Explanation:
   4: 3 appears at nums2[0]. The next highest number in nums2 is 4 at nums2[2]
 """
 
+from solution import fast
+
 
 ########
 # Write your code in this function
 ########
 def solution(nums1, nums2):
-  pass
+  return fast(nums1, nums2)
 
 
 
